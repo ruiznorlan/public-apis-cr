@@ -17,6 +17,7 @@
     - [Agua](#agua)
     - [Electricidad](#electricidad)
     - [Gas](#gas)
+    - [Taxi](#taxi)
 
 
 <br />
@@ -81,5 +82,14 @@ API | Descripción | Auth | HTTPS |
 API | Descripción | Auth | HTTPS |
 |---|---|---|---|
 | [Plantas envasadoras de gas licuado de petróleo](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/Gas.svc) | Se muestra el total de las plantas envasadoras del país y su ubicación exacta.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+#### Taxi
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Tarifas históricas de Taxi](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Taxi.svc) | Tarifas para el servicio de taxi, que se clasifica de acuerdo con su base de operación en regular ( taxis rojos) y en base de operación especial ( taxis aeropuerto).| No | Yes |
+| [Flota autorizada Taxi](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Taxi.svc) | Base de datos de la flota autorizada por el Consejo de Transporte Público (CTP) suministrada a la ARESEP en junio 2015, actualizada con la base de datos de placas de taxi contenida en el Registro Nacional al 20 de febrero de 2019.| No | Yes |
+| [Paradas de taxi](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Taxi.svc) | Datos muestran información sobre las paradas de taxi autorizadas.| No | Yes |
 
 **[⬆ Volver al inicio](#indice)**
