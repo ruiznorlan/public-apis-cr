@@ -26,10 +26,11 @@
     - [Riego y Avenamiento](#riego-y-avenamiento)
     - [Puertos](#puertos)
     - [Aeropuertos](#aeropuertos)
-
+* [Ministerio de Hacienda](#ministerio-de-hacienda)
 
 
 <br />
+
 <br />
 
 ### ARESEP
@@ -184,5 +185,26 @@ API | Descripción | Auth | HTTPS |
 | [Carga movilizada por aeropuerto internacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Aeropuerto.svc) | Carga movilizada medida en MTOWS que significa masa máxima al momento de despegue, según aeropuerto.| No | Yes |
 | [Operaciones realizadas por aeropuerto internacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Aeropuerto.svc) | Total de vuelos que se realizaron en los aeropuertos o aeródromos.| No | Yes |
 | [Pasajeros movilizados por aeropuerto internacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Aeropuerto.svc) | Cantidad de pasajeros nacionales e internacionales transportados en los aeropuertos nacionales.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+
+### Ministerio de Hacienda
+
+Información general y de uso público para el consumo desde aplicaciones creadas por desarrolladores de soluciones.
+
+Fuente: [API Ministerio de Hacienda](https://bit.ly/2McNcpX)
+
+<br />
+
+#### Ministerio de Hacienda
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Contribuyentes](https://api.hacienda.go.cr/fe/ae) | Permite obtener el nombre, el tipo de identificación, el régimen, la situación tributaria y las actividades económicas asociadas a un contribuyente, usando como parámetro el número de identificación (sin hacer uso de guiones).  Para la consulta de identificaciones físicas nacionales no es necesario incluir el 0 como primer dígito. En el caso de las identificaciones jurídicas y NITES tributarios es necesario el uso de los primeros 10 dígitos, sin utilizar los dos últimos dígitos verificadores. | No | Yes |
+| [Tipo de Cambio](https://api.hacienda.go.cr/indicadores/tc) | Permite obtener el tipo de cambio del dólar y euro.  No requiere de ningún tipo de parámetro. | No | Yes |
+| [Exoneraciones](https://api.hacienda.go.cr/fe/ex) | Permite obtener la información correspondiente a una exoneración.  Requiere el parámetro _*autorizacion*_ cuyo formato debe seguir la regla al-00000000-00. | No | Yes |
+| [Agropecuario](https://api.hacienda.go.cr/fe/agropecuario) | Permite obtener el nombre, el estado, el indicador de si está activo y la fecha de baja de los productores agropecuarios en el MAG, usando como parámetro el número de _*identificacion*_ (sin hacer uso de guiones).  Para la consulta de identificaciones físicas nacionales es necesario incluir el 0 como primer dígito. En el caso de las identificaciones jurídicas es necesario el uso de los primeros 10 dígitos, sin utilizar los dos últimos dígitos verificadores.  | No | Yes |
+| [Pesca](https://api.hacienda.go.cr/fe/pesca) | Permite obtener los siguientes datos:<br/> - Del registro de productores agropecuarios del MAG: el nombre, el estado, el indicador de si está activo y la fecha de baja.<br/> - Del registro de INCOPESCA: el indicador de si está activo, el nombre del permisionario y la fecha de vencimiento.  <br/> - Del registro de acuicultores: el indicador de si está activo, el nombre del acuicultor y la fecha de vencimiento. <br/>  Se usa como parámetro el número de _*identificación*_ (sin hacer uso de guiones).  Para la consulta de identificaciones físicas nacionales es necesario incluir el 0 como primer dígito. En el caso de las identificaciones jurídicas es necesario el uso de los primeros 10 dígitos, sin utilizar los dos últimos dígitos verificadores. | No | Yes |
+| [CAByS](https://api.hacienda.go.cr/fe/cabys) | Permite obtener la información correspondiente al Catalago de Bienes y Servicios (CABYS), a partir de la descripción de los bienes y servicios o su número de código.  Puede utilizar los parámetros _*q*_ o _*codigo*_ de la siguiente manera: | No | Yes |
 
 **[⬆ Volver al inicio](#indice)**
