@@ -33,6 +33,7 @@ API | Descripción | Auth | HTTPS |
 | [Tarifas de Autobús](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/PliegoTarifario.svc) | Tarifas del servicio de autobús clasificadas por ruta, ramal y fraccionamiento aprobados por el CTP. | No | Yes |
 | [Flota autorizada](https://web.aresep.go.cr/ws.datosAbiertos/Services/IT/Autobus.svc) | Se refiere a la cantidad de unidades autorizadas para brindar el servicio de autobús por cada operador y ruta. | No | Yes |
 | [Histórico de variables utilizadas en las fijaciones tarifarias de autobús](https://web.aresep.go.cr/ws.datosAbiertos/Services/IT/Autobus.svc) | Se refiere a todas las variables que se utilizan para las fijaciones tarifarias de autobús, las fuentes pueden ser diversas. | No | Yes |
+| [Rutas de autobuses](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Autobus.svc) | Se muestra información sobre los recorridos por los ramales de las rutas de autobús. | No | Yes |
 
 **[⬆ Volver al inicio](#indice)**
 
