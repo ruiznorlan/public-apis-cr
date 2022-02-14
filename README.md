@@ -18,6 +18,15 @@
     - [Electricidad](#electricidad)
     - [Gas](#gas)
     - [Taxi](#taxi)
+    - [Tren](#tren)
+    - [RITEVE](#riteve)
+    - [Peajes](#peajes)
+    - [Cabotaje](#cabojate)
+    - [Correo](#correo)
+    - [Riego y Avenamiento](#riego-y-avenamiento)
+    - [Puertos](#puertos)
+    - [Aeropuertos](#aeropuertos)
+
 
 
 <br />
@@ -91,5 +100,89 @@ API | Descripción | Auth | HTTPS |
 | [Tarifas históricas de Taxi](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Taxi.svc) | Tarifas para el servicio de taxi, que se clasifica de acuerdo con su base de operación en regular ( taxis rojos) y en base de operación especial ( taxis aeropuerto).| No | Yes |
 | [Flota autorizada Taxi](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Taxi.svc) | Base de datos de la flota autorizada por el Consejo de Transporte Público (CTP) suministrada a la ARESEP en junio 2015, actualizada con la base de datos de placas de taxi contenida en el Registro Nacional al 20 de febrero de 2019.| No | Yes |
 | [Paradas de taxi](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Taxi.svc) | Datos muestran información sobre las paradas de taxi autorizadas.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+#### Tren
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Tarifas históricas](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Ferrocarril.svc) | Tarifas para el servicio de ferrocarril, en el cual se brindan servicios de transporte remunerado de personas en el GAM.| No | Yes |
+| [Tarifas históricas transporte de carga](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Ferrocarril.svc) | Tarifas para el servicio de transporte de carga en ferrocarril.| No | Yes |
+| [Pasajeros movilizados](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Ferrocarril.svc) | Cantidad de pasajeros movilizados en la modalidad de: turismo y las rutas metropolitanas..| No | Yes |
+| [Pasajeros adultos mayores movilizados](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Ferrocarril.svc) | Cantidad de pasajeros adultos mayores movilizados en el servicio de turismo y rutas urbanas.| No | Yes |
+| [Carga movilizada](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Ferrocarril.svc) | Cantidades movilizadas en los servicios de transporte de: banano, acero, papel, cartón y pasajeros sector atlántico.| No | Yes |
+| [Recorridos del servicio del tren](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Ferrocarril.svc) |Se muestra información sobre los recorridos del tren.| No | Yes |
+| [Paradas del servicio del tren](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Ferrocarril.svc) | Se muestra información de las paradas del tren.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+#### RITEVE
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Tarifas históricas de la Revisión Técnica Vehicular -RTV-](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/RTV.svc) | Tarifas para el servicio de revisión técnica vehicular.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+#### Peajes
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Flujos vehiculares ruta 27](	https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Peaje.svc) | Cantidad de vehículos contabilizados en cada uno de los puntos de conteo definidos en el contrato de concesión.| No | Yes |
+| [Flujo vehicular CONAVI](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Peaje.svc) | Cantidad de vehículos que transitan por las carreteras nacionales y que son sujetas de pago de peaje.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+#### Cabotaje
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Tarifas históricas cabotaje mayor](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Cabotaje.svc) | Tarifas de pasajeros que utilizan el servicio de cabotaje mayor, conocidos como ferrys, los cuales transportan personas y vehículos (las tarifas de los vehículos las define la División Marítima Portuaria del MOPT).| No | Yes |
+| [Tarifas históricas cabotaje menor](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Cabotaje.svc) | Tarifas para el servicio de transporte de personas y mercancías pequeñas (capacidad aproximada de 30 personas).| No | Yes |
+| [Pasajeros movilizados](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Cabotaje.svc) | Cantidad de pasajeros movilizados en el servicio de transporte de pasajeros en la modalidad de cabotaje mayor, conocidos como ferrys que pueden transportar personas y vehículos.| No | Yes |
+| [Recorrido del servicio de cabotaje](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Cabotaje.svc) | Se muestra información sobre el recorrido de las rutas de cabotaje.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+#### Correo
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Tarifas servicio nacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Tarifas para el servicio social postal, correo tradicional y comercial, con un peso límite de 2 kilogramos y que brinda la empresa Correos de Costa Rica.| No | Yes |
+| [Tarifas históricas de correo internacional prioritario](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Tarifas históricas de correo tradicional y/o comercial prioritario que cuente con un peso límite de 2 kilogramos, que su imposición sea local y el destino internacional.| No | Yes |
+| [Tarifas históricas de correo internacional no prioritario](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Tarifas históricas de correo tradicional y/o comercial no prioritario que cuente con un peso límite de 2 kilogramos, que su imposición sea local y el destino internacional.| No | Yes |
+| [Tarifas históricas de Porte Pago con preclasificación](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Tarifas para el servicio Porte Pago con preclasificación, que se otorga a clientes con más de 3000 envíos mensuales.| No | Yes |
+| [Tarifas históricas de Porte Pago sin preclasificación](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Tarifas para el servicio Porte Pago sin preclasificación, que se otorga a clientes con más de 3000 envíos mensuales.| No | Yes |
+| [Tarifas históricas de tasas especiales de correo nacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Tarifas de servicios que se pueden adicionar al correo tradicional con destino nacional, dependiendo de la necesidad del usuario, tales como listas de correo, acuse de recibo, entrega en mano propia, valor declarado, carta manifiesta y devoluciones al expedidor.| No | Yes |
+| [Tarifas históricas de tasas especiales de correo internacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Tarifas de servicios que se pueden adicionar al correo tradicional con destino internacional dependiendo de la necesidad del usuario, tales como acuse de recibo, entrega en mano propia, servicio express, devoluciones al expedidor, cupones de respuesta internacional.| No | Yes |
+| [Tarifas históricas de tasas de certificado y bodegaje](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Tarifas del servicio certificado, el cual hace referencia al momento de entregar la correspondencia sólo a una persona mayor de 18 años en el domicilio postal del destinatario. Además de las tarifas por el servicio de bodegaje.| No | Yes |
+| [Volumen postal con destino nacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Total de correo tradicional y correo comercial que cuente con un peso límite de 2 kilogramos y que su imposición y destino sea local.| No | Yes |
+| [Volumen postal certificado y corporativo](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Total de correo tradicional corporativo que cuente con un peso límite de 2 kilogramos y que su destino sea local.| No | Yes |
+| [Volumen postal con destino internacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Correo.svc) | Total de correo tradicional y correo comercial que cuente con un peso límite de 2 kilogramos y que su imposición sea local y el destino internacional.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+#### Riego y Avenamiento
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Tarifas de SENARA en el servicio de riego y avenamiento](https://web.aresep.go.cr/ws.datosabiertos/Services/IA/AguaPotable.svc) | Estos datos se refieren a las tarifas de SENARA aprobadas por ARESEP en el servicio de riego y avenamiento.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+#### Puertos
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Tarifas históricas a estibadoras](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Puerto.svc) | Tarifas para los servicios de estiba y desestiba que se brinda a las navieras en los puertos de Limón y Moín.| No | Yes |
+| [Tarifas históricas de los puertos del Pacífico -INCOP](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Puerto.svc) | Tarifas para los servicios que se brindan a las navieras en los puertos del Pacífico.| No | Yes |
+| [Tarifas históricas de los puertos del Caribe -JAPDEVA-](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Puerto.svc) | Tarifas para los servicios que se brindan a las navieras en los puertos de Limón y Moín.| No | Yes |
+| [Carga movilizada estibadoras](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Puerto.svc) | Carga movilizada en todas las operaciones realizadas en los puertos de Limón y Moín por medio de compañías estibadoras, según tipo de mercancía.| No | Yes |
+| [Carga Movilizada en los Puertos del Pacífico](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Puerto.svc) | Carga movilizada en las operaciones realizadas en los puertos del Pacífico.| No | Yes |
+| [Carga Movilizada en los Puertos de Limón y Moín](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Puerto.svc) | Carga movilizada en las operaciones realizadas en los puertos de Limón y Moín.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+#### Aeropuertos
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Tarifas históricas en servicios aeronáuticos](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Aeropuerto.svc) | Tarifas para los servicios prestados a operadores aéreos en las terminales, tales como: aterrizaje, aproximación, iluminación, puentes, buses, estacionamiento, carga, entre otros.| No | Yes |
+| [Carga movilizada por aeropuerto internacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Aeropuerto.svc) | Carga movilizada medida en MTOWS que significa masa máxima al momento de despegue, según aeropuerto.| No | Yes |
+| [Operaciones realizadas por aeropuerto internacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Aeropuerto.svc) | Total de vuelos que se realizaron en los aeropuertos o aeródromos.| No | Yes |
+| [Pasajeros movilizados por aeropuerto internacional](https://web.aresep.go.cr/ws.datosabiertos/Services/IT/Aeropuerto.svc) | Cantidad de pasajeros nacionales e internacionales transportados en los aeropuertos nacionales.| No | Yes |
 
 **[⬆ Volver al inicio](#indice)**
