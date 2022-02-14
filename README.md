@@ -53,3 +53,14 @@ API | Descripción | Auth | HTTPS |
 
 **[⬆ Volver al inicio](#indice)**
 
+#### Electricidad
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Tarifas de electricidad del sistema de distribución](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/TarifasElectricidad.svc) | Tarifas fijadas por ARESEP, en colones por kWh, clasificadas de acuerdo al año, empresa, tipo de tarifa. | No | Yes |
+| [Tarifas electricidad del sistema de generación](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/TarifasElectricidad.svc) | Tarifas fijadas por ARESEP, en colones por kWh, clasificadas de acuerdo al año, empresa, tipo de tarifa. | No | Yes |
+| [Tarifas electricidad de alumbrado público](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/TarifasElectricidad.svc) | Tarifas fijadas por ARESEP, en colones por kWh, clasificadas de acuerdo al año, empresa, tipo de tarifa. | No | Yes |
+| [Tarifas de electricidad del sistema de transmisión eléctrica](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/TarifasElectricidad.svc) | Tarifas fijadas por ARESEP, en colones por kWh, clasificadas de acuerdo al año, empresa, tipo de tarifa. | No | Yes |
+| [Precios medios](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/TarifasElectricidad.svc) | Tarifas fijadas por ARESEP, en colones por kWh, clasificadas de acuerdo al año, empresa, tipo de tarifa. | No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
