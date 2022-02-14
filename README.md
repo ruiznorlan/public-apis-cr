@@ -51,6 +51,7 @@ API | Descripción | Auth | HTTPS |
 | [Mercado de los servicios regulados por operador](https://web.aresep.go.cr/ws.datosabiertos/Services/IA/AguaPotable.svc) | Estos datos se refieren a las variables de mercado (conexiones, consumo e ingresos) de los servicios regulados por AyA y ESPH (acueducto, alcantarillado, hidrantes y protección del recurso hídrico). | No | Yes |
 | [Tarifas de los servicios de acueducto, alcantarillado, hidrantes y TPRH por operador](https://web.aresep.go.cr/ws.datosabiertos/Services/IA/AguaPotable.svc) | Estos datos se refieren a las tarifas de acueducto y alcantarillado para el servicio que suministran AyA, ESPH y ASADAS.| No | Yes |
 | [Plantas de tratamiento para agua potable (PTAP), AyA](https://web.aresep.go.cr/ws.datosAbiertos/Services/IA/Calidad.svc) | Información de distribución de los sistemas para potabilización del agua destinada para consumo humano en los diferentes sistemas de AyA a nivel nacional. | No | Yes |
+| [Acueducto Comunales (ASADAS)](https://web.aresep.go.cr/ws.datosabiertos/Services/IA/Asadas.svc) | Ubicación de las oficinas de las Asociaciones Administradoras de Acueductos y Alcantarillados Comunales (ASADAS). | No | Yes |
 
 **[⬆ Volver al inicio](#indice)**
 
@@ -62,6 +63,12 @@ API | Descripción | Auth | HTTPS |
 | [Tarifas electricidad de alumbrado público](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/TarifasElectricidad.svc) | Tarifas fijadas por ARESEP, en colones por kWh, clasificadas de acuerdo al año, empresa, tipo de tarifa. | No | Yes |
 | [Tarifas de electricidad del sistema de transmisión eléctrica](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/TarifasElectricidad.svc) | Tarifas fijadas por ARESEP, en colones por kWh, clasificadas de acuerdo al año, empresa, tipo de tarifa. | No | Yes |
 | [Precios medios](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/TarifasElectricidad.svc) | Tarifas fijadas por ARESEP, en colones por kWh, clasificadas de acuerdo al año, empresa, tipo de tarifa. | No | Yes |
+| [Fiscalización calidad de la tensión eléctrica](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/Electricidad.svc) | Se muestra las actividades de fiscalización de la calidad del servicio eléctrico, en la cual se verifican, a lo largo y ancho del país, variedad de parámetros relativos a la tensión eléctrica (voltaje) en el punto de entrega. | No | Yes |
+| [Zonas de concesión por operador eléctrico](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/Electricidad.svc) | Se muestra los límites de las zonas de concesión de cada operador eléctrico. En las zonas que no se pudo identificar a ningún operador, dado que estos no las declararon como propias, han sido asignadas al ICE y serán corroboradas próximamente. | No | Yes |
+| [Transformadores por distrito y operador](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/Electricidad.svc) | Se muestra información y localización de los transformadores en cada distrito del país, así como el operador al que corresponde. | No | Yes |
+| [Postes por distrito y operador](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/Electricidad.svc) | Se muestra información básica y localización de los postes en cada distrito del país, así como el operador al que corresponden. | No | Yes |
+| [Centrales Eléctricas](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/Electricidad.svc) | Proyectos de inversión de centrales eléctricas. | No | Yes |
+| [Subestaciones eléctricas](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/Electricidad.svc) | Proyectos de inversión de subestaciones. | No | Yes |
 
 **[⬆ Volver al inicio](#indice)**
 
