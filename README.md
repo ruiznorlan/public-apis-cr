@@ -64,3 +64,9 @@ API | Descripción | Auth | HTTPS |
 
 **[⬆ Volver al inicio](#indice)**
 
+#### Gas
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Plantas envasadoras de gas licuado de petróleo](https://web.aresep.go.cr/ws.datosabiertos/Services/IE/Gas.svc) | Se muestra el total de las plantas envasadoras del país y su ubicación exacta.| No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
