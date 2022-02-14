@@ -26,6 +26,7 @@
     - [Riego y Avenamiento](#riego-y-avenamiento)
     - [Puertos](#puertos)
     - [Aeropuertos](#aeropuertos)
+* [Banco Central de Costa Rica](#bccr)
 * [Ministerio de Hacienda](#ministerio-de-hacienda)
 
 
@@ -188,6 +189,29 @@ API | Descripción | Auth | HTTPS |
 
 **[⬆ Volver al inicio](#indice)**
 
+
+### BCCR
+
+Con motivo de la continua modernización e implementación tecnológicas de punta en el
+Banco Central de Costa Rica, esta institución ofrece un nuevo servicio a clientes
+nacionales e internacionales, el cual permite que los sistemas de instituciones o
+empresas puedan conectarse con el web service del BCCR y consultar información como
+el tipo de cambio con respecto al EUA dólar, otros tipos de cambio, tasas de interés,
+inflación, y otros indicadores de interés para el público, de una manera transparente y
+rápida. Cualquier persona o institución, sea privada o pública, puede acceder esta
+información del día o histórica desde cualquier parte del mundo y sin ningún costo
+monetario
+
+Fuente: [Web Service de Indicadores Económicos](https://gee.bccr.fi.cr/indicadoreseconomicos/Documentos/DocumentosMetodologiasNotasTecnicas/Webservices_de_indicadores_economicos.pdf)
+
+<br />
+
+#### Banco Central de Costa Rica
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Indicadores Económicos](https://gee.bccr.fi.cr/Indicadores/Suscripciones/WS/wsindicadoreseconomicos.asmx) | El web service del BCCR permite consultar información como el tipo de cambio con respecto al EUA dólar, otros tipos de cambio, tasas de interés, inflación, y otros indicadores de interés para el público, de una manera transparente y rápida. | Yes | Yes |
+
+**[⬆ Volver al inicio](#indice)**
 
 ### Ministerio de Hacienda
 
