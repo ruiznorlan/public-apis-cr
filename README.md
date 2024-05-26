@@ -249,6 +249,5 @@ API | Descripción | Auth | HTTPS |
 | [Precio Internacional](https://api.recope.go.cr/precio-internacional) | Obtiene el precio internacional del combustible para cada producto comercializado. Opcionalmente se pueden agregar los parámetros de inicio y fin para especificar el rango de fechas del cual se desea obtener los precios, siguiendo el formato YYYYMMDD. | No | Yes |
 | [Precio Consumidor](https://api.recope.go.cr/ventas/precio/consumidor) | Obtiene el precio actualizado del combustible para cada producto comercializado. | No | Yes |
 | [Precio Plantel](https://api.recope.go.cr/ventas/precio/plantel) | Obtiene el precio actualizado del combustible disponibles en los planteles de distribución. | No | Yes |
-| [Precio Plantel](https://api.recope.go.cr/ventas/precio/plantel) | Obtiene el precio actualizado del combustible disponibles en los planteles de distribución. | No | Yes |
 
 **[⬆ Volver al inicio](#indice)**
