@@ -26,6 +26,7 @@
     - [Riego y Avenamiento](#riego-y-avenamiento)
     - [Puertos](#puertos)
     - [Aeropuertos](#aeropuertos)
+    - [RECOPE](#recope)
 * [Banco Central de Costa Rica](#bccr)
 * [Ministerio de Hacienda](#ministerio-de-hacienda)
 
@@ -230,5 +231,24 @@ API | Descripción | Auth | HTTPS |
 | [Agropecuario](https://api.hacienda.go.cr/fe/agropecuario) | Permite obtener el nombre, el estado, el indicador de si está activo y la fecha de baja de los productores agropecuarios en el MAG, usando como parámetro el número de _*identificacion*_ (sin hacer uso de guiones).  Para la consulta de identificaciones físicas nacionales es necesario incluir el 0 como primer dígito. En el caso de las identificaciones jurídicas es necesario el uso de los primeros 10 dígitos, sin utilizar los dos últimos dígitos verificadores.  | No | Yes |
 | [Pesca](https://api.hacienda.go.cr/fe/pesca) | Permite obtener los siguientes datos:<br/> - Del registro de productores agropecuarios del MAG: el nombre, el estado, el indicador de si está activo y la fecha de baja.<br/> - Del registro de INCOPESCA: el indicador de si está activo, el nombre del permisionario y la fecha de vencimiento.  <br/> - Del registro de acuicultores: el indicador de si está activo, el nombre del acuicultor y la fecha de vencimiento. <br/>  Se usa como parámetro el número de _*identificación*_ (sin hacer uso de guiones).  Para la consulta de identificaciones físicas nacionales es necesario incluir el 0 como primer dígito. En el caso de las identificaciones jurídicas es necesario el uso de los primeros 10 dígitos, sin utilizar los dos últimos dígitos verificadores. | No | Yes |
 | [CAByS](https://api.hacienda.go.cr/fe/cabys) | Permite obtener la información correspondiente al Catalago de Bienes y Servicios (CABYS), a partir de la descripción de los bienes y servicios o su número de código.  Puede utilizar los parámetros _*q*_ o _*codigo*_ de la siguiente manera: | No | Yes |
+
+**[⬆ Volver al inicio](#indice)**
+
+<br />
+
+### RECOPE
+
+#### RECOPE
+
+El API dispone de varios recursos sobre los que puede realizar consultas. A continuación el detalle de recursos disponibles y las operaciones que puede realizar en cada uno de ellos, incluyendo una muestra de la solicitud (request) y su respuesta (response).
+
+Fuente: [API RECOPE](https://datosabiertos.recope.go.cr/servicio-api)
+
+API | Descripción | Auth | HTTPS |
+|---|---|---|---|
+| [Precio Internacional](https://api.recope.go.cr/precio-internacional) | Obtiene el precio internacional del combustible para cada producto comercializado. Opcionalmente se pueden agregar los parámetros de inicio y fin para especificar el rango de fechas del cual se desea obtener los precios, siguiendo el formato YYYYMMDD. | No | Yes |
+| [Precio Consumidor](https://api.recope.go.cr/ventas/precio/consumidor) | Obtiene el precio actualizado del combustible para cada producto comercializado. | No | Yes |
+| [Precio Plantel](https://api.recope.go.cr/ventas/precio/plantel) | Obtiene el precio actualizado del combustible disponibles en los planteles de distribución. | No | Yes |
+| [Precio Plantel](https://api.recope.go.cr/ventas/precio/plantel) | Obtiene el precio actualizado del combustible disponibles en los planteles de distribución. | No | Yes |
 
 **[⬆ Volver al inicio](#indice)**
